@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">拾集</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="forget">忘记密码</string>
+    <string name="sign_in">立即注册</string>
+    <string name="username">账户名</string>
+    <string name="passward">密码</string>
+
+    <string name="attention">备忘录</string>
+    <string name="money">记账本</string>
+    <string name="diary">日记本</string>
+</resources>

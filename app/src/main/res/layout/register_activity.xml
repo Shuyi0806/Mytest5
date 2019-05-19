@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/useredit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="39dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="120dp"
+        android:clickable="true"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:onClick="OnMyResPwdClick"
+        android:text="@string/username"
+        android:textColor="#9d8189"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/passwardedit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/passwardedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="39dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="38dp"
+        android:clickable="true"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:onClick="OnMyResPwdClick"
+        android:text="@string/passward"
+        android:textColor="#9d8189"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/loginbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/useredit" />
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="149dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="236dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginStart="118dp"
+
+
+        android:layout_marginTop="39dp"
+        android:gravity="center"
+        android:text="@string/register"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwardedit"
+        android:layout_marginRight="117dp"
+        android:layout_marginLeft="118dp" />
+</android.support.constraint.ConstraintLayout>
